@@ -1,0 +1,8 @@
+.board {
+    background: rgb(218, 90, 90);
+	width: 500px;
+    height: 500px;
+	margin: 0 auto;
+	display: flex;
+    flex-wrap: wrap;
+}
