@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    background: #424874;
+    height: 80px;
+	margin: 0 auto;
+} 
+
+.basket {
+    background: #424874;
+    width: 35%;
+    height: 60px;
+    margin-left: 65%;
+	display: block;
+} 
+
+#catalog {
+    background: #f4eeff;
+    width: 100%;
+	display: flex;
+    flex-wrap: wrap;
+    position: absolute;    
+}
+
+#item {
+    background: #a6b1e1;
+    width: 25%;
+    height: 377px;
+	display: block;
+    box-sizing:border-box;  
+    border: 1px solid;
+}
+
+#item_img {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#big_item, #big_basket, #adress, #comment{
+    height: 500px;
+    width: 50%;
+    position: absolute;
+	margin:0 25% 0 25%;
+	display: flex;
+    flex-wrap: wrap;
+    background-color:#dcd6f7;
+    border-radius: 10px;
+}
+
+
+#big_img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 60%;
+    position: absolute;
+	margin:0 20% 0 20%;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h3 {
+    color: white;
+}
+
+#close_modal, #close_basket {
+    position: absolute;
+    right: 0;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    user-select: none;
+    background-color: rgb(168, 5, 5);
+    padding: .7em 1.5em;
+    border: 1px solid;
+    }
+
+#close_modal:hover,
+#close_basket:hover {
+    background-color: rgb(13, 191, 43);
+}
+
+#to_adress, #to_comment, #to_finish{
+    position: absolute;
+    bottom: 1%;
+    left: 40%;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    user-select: none;
+    background-color: rgb(13, 191, 43);
+    padding: .7em 1.5em;
+    border: 1px solid;
+    }
+
+#to_adress:hover,
+#to_comment:hover,
+#to_finish:hover{
+    background-color: rgb(168, 5, 5);
+}
+
+#basket_btn {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    user-select: none;
+    border-radius: 10px;
+    background-color: rgb(168, 5, 5);
+    padding: .7em 1.5em;
+    border: 1px solid;
+    display: block;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#basket_btn:hover{
+    background-color: rgb(13, 191, 43);
+}
